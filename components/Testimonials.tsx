@@ -91,13 +91,13 @@ export default function Testimonials() {
 
               {/* Content */}
               <p className="text-gray-700 leading-relaxed mb-6">
-                "{testimonial.content}"
+                {testimonial.content}
               </p>
 
               {/* Author */}
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
-                  {testimonial.avatar}
+                  &ldquo;{testimonial.content}&rdquo;
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
