@@ -97,7 +97,7 @@ export default function Testimonials() {
               {/* Author */}
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
-                  &ldquo;{testimonial.content}&rdquo;
+                {testimonial.content}
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
